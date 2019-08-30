@@ -186,10 +186,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$highlight: #bbded6;
 $warning: #ffb6b9;
-$p-light: #fae3d9;
-$secondary: #bbded6;
-$s-dark: #8ac6d1;
+
 $dark: #424345;
 $gray: #616163;
 $white: #fff;
@@ -225,7 +224,6 @@ $light: #d4d4d2;
     color: $dark;
     width: 100%;
     min-height: 2.4rem;
-    // border: none;
     padding: 0.8rem;
     display: block;
     font-size: 1.2rem;
@@ -271,7 +269,7 @@ $light: #d4d4d2;
       background-color: $dark;
     }
     &.action {
-      background-color: $secondary;
+      background-color: $highlight;
       color: black;
     }
     &:active {

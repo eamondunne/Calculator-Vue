@@ -1,4 +1,6 @@
-# app
+# Calculator Frontend built with Vue.JS
+
+docker build -t calculator-vue
 
 ## Project setup
 ```
