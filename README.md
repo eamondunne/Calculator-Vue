@@ -1,7 +1,11 @@
 # Calculator Frontend built with Vue.JS
-
-docker build -t calculator-vue
-
+## Build & Run with Docker
+```
+docker build -t calculator-vue .
+```
+```
+docker run -d -p 8080:8080 calculator-vue
+```
 ## Project setup
 ```
 npm install
